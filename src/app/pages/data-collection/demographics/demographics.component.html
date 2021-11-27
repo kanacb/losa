@@ -1,0 +1,88 @@
+<div class="container-fluid">
+  <form>
+    <div class="row row-cols-2">
+      <div class="col col-8">
+        <div class="row row-cols-1">
+          <div class="col col-12">A. Observer Information</div>
+        </div>
+        <div class="row row-col-2">
+          <div class="col col-6">
+            <div class="row">
+              <label for="observerId" class="col-form-label"
+                >Obeserver Id</label
+              >
+              <div>
+                <input
+                  type="text"
+                  class="form-control-plaintext"
+                  id="observerId"
+                  value="1"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <label for="observation_number" class="col-form-label"
+                >Obeservation Number</label
+              >
+              <small class="label success i">(Example 01,02...20)</small>
+              <div>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="observation_number"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col col-6">
+            <label for="observation_number" class="col-form-label"
+              >Airlines</label
+            >
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+        </div>
+        <div class="row row-cols-1">
+          <div class="col col-12 mt-3">B. Flight Demographics</div>
+        </div>
+        <div class="row row-cols-3">
+          <div class="col col-4">
+            <div class="form-check">
+
+              <label class="form-check-label" for="flexRadioDefault1">
+                Flight Pairing
+              </label>
+            </div>
+          </div>
+          <div class="col col-4">
+            <input
+              class="form-check-input "
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault1"
+            />
+            <label class="form-check-label" for="flexRadioDefault1">
+              Capt-Capt
+            </label>
+          </div>
+          <div class="col col-4">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault1"
+            />
+            <label class="form-check-label" for="flexRadioDefault1">
+              Capt-FO
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="col col-4"></div>
+    </div>
+  </form>
+</div>
