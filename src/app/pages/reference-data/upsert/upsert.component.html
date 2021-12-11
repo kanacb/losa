@@ -1,0 +1,42 @@
+<div class="display-5">
+  {{ collection | titlecase }}
+</div>
+<form [formGroup]="f" (submit)="onSubmit()">
+  <div class="row row-col-2">
+    <div class="col col-3 pull-right">
+      <label for="fieldValue" class="form-label col-form-label">Field name</label>
+    </div>
+    <div class="col col-6">
+      <input class="form-control form-control-sm" formControlName="Field1" type="text" id="fieldValue" />
+    </div>
+  </div>
+  <div class="row row-col-2">
+    <div class="col col-3 pull-right">
+      <label for="fieldValue" class="form-label col-form-label">Field name</label>
+    </div>
+    <div class="col col-6">
+      <input class="form-control form-control-sm" type="text" id="fieldValue" />
+    </div>
+  </div>
+  <div class="row row-col-2">
+    <div class="col col-3 pull-right">
+      <label for="fieldValue" class="form-label col-form-label">Field name</label>
+    </div>
+    <div class="col col-6">
+      <input class="form-control form-control-sm" type="text" id="fieldValue" />
+    </div>
+  </div>
+  <div class="row row-col-2">
+    <div class="col col-3 pull-right">
+      <label for="fieldValue" class="form-label col-form-label">Field name</label>
+    </div>
+    <div class="col col-6">
+      <input class="form-control form-control-sm" type="text" id="fieldValue" />
+    </div>
+  </div>
+  <div class="d-flex justify-content-between">
+    <button class="btn btn-outline-warning btn-sm" type="button">Cancel</button>
+    <button class="btn btn-success btn-sm" type="submit">Submit</button>
+    <button class="btn btn-light btn-sm" type="button" (click)="onReset()">Reset</button>
+  </div>
+</form>
